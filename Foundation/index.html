@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas>
+    <div class="grid-y grid-padding-x">
+      <br>
+      <div class="cell shrink">
+        <h2 class="float-left" style="font-style: italic;">Delicias</h2>
+        <img style="width: 70%;" class="float-right thumbnail" src="img/slogan.jpg">
+      </div>
+      <div class="cell auto">
+        <hr>
+        <div class="grid-x text-center">
+          <div class="cell small-11">
+            <input type="text" name="enviar" placeholder="Buscar...">
+          </div>
+          <div class="cell small-1">
+            <i class="step fi-magnifying-glass buscar"></i>
+          </div>
+        </div>
+        <hr>
+        <div class="grid-x">
+          <div class="cell small-12">
+            <ul class="vertical menu">
+              <li>
+                <a href="#">Inicio</a>
+              </li>
+              <li>
+                <a href="#">Mi plato perfecto</a>
+              </li>
+              <li>
+                <a href="#">Mis recetas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="grid-x">
+          <div class="cell small-12">
+            <h5>Favoritos:</h5>
+          </div>
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/sopa.jpg">
+          </div>
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/bandeja.jpg">
+          </div>
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/cereales.jpg">
+          </div>
+        </div>
+        <div class="grid-x">
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/espaguetis.jpg">
+          </div>
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/hamburguesa.jpg">
+          </div>
+          <div class="cell small-4">
+            <img class="thumbnail favoritos" src="img/tacos.jpg">
+          </div>
+        </div>
+        <hr>
+        <div class="grid-x">
+          <div class="cell small-12">
+            <h5>Historial:</h5>
+          </div>
+            <ul class="vertical menu">
+              <li>
+                <a href="#">Sopa</a>
+              </li>
+              <li>
+                <a href="#">Hamburguesa</a>
+              </li>
+              <li>
+                <a href="#">Espaguetis</a>
+              </li>
+              <li>
+                <a href="#">Tacos</a>
+              </li>
+              <li>
+                <a href="#">Cereales</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="title-bar hide-for-large">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-toggle="my-info"></button>
+        <span class="title-bar-title">DELICIAS</span>
+      </div>
+    </div>
+    <div class="callout primary">
+      <article class="grid-container">
+        <div>
+          <img class="float-center" src="img/fes.jpg" width="57%">
+        </div>
+      </article>
+    </div>
+    <article class="grid-container">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
+        <div class="card">
+          <div class="card-divider">
+            <h4>Hamburguesa</h4>
+          </div>
+          <div class="card-section">
+            <p class="fecha">Publicado el 7 de noviembre de 2017</p>
+          </div>
+          <img class="thumbnail float-center" src="img/hamburguesa.jpg" width="70%">
+          <div class="card-section">
+            <p class="text-justify">Es un alimento en forma de bocadillo de carne picada aglutinada en forma de filete, cocinado a la parrilla o a la plancha,
+            aunque también puede freírse u hornearse. Fuera del ámbito de habla hispana es más común encontrar la denominación inglesa
+            burger. Se presenta en un pan ligero partido en dos que posee una forma de óvalo.</p>
+          </div>
+          <div class="grid-x text-center">
+            <div class="cell small-11 ">
+              <textarea class="comentario" placeholder="Escribe un comentario"></textarea>
+            </div>
+            <div class="cell small-1">
+              <i class="step fi-torso usu"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="grid-container">
+      <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-4 align-center">
+        <div class="card">
+          <div class="card-divider">
+            <h4>Bandeja Paisa</h4>
+          </div>
+          <div class="card-section">
+            <p class="fecha">Publicado el 7 de mayo de 2018</p>
+          </div>
+          <img class="thumbnail float-center" src="img/bandejapaisa.jpg" width="50%">
+          <div class="card-section">
+            <p class="text-justify"> Es el plato más representativo de la región, típico de la cocina antioqueña, correspondiente a los actuales territorios
+            de Antioquia, el Viejo Caldas o Eje Cafetero (Caldas, Quindío y Risaralda), parte del norte del Valle del Cauca y el norte
+            del Tolima, Colombia. Característica fundamental de este plato es su enorme abundancia, tanto en cantidad como en variedad
+            de alimentos, de tal modo que la bandeja paisa completa solo cabe servirla en platos grandes llamados bandejas.</p>
+          </div>
+          <div class="grid-x text-center">
+            <div class="cell small-11 ">
+              <textarea class="comentario" placeholder="Escribe un comentario"></textarea>
+            </div>
+            <div class="cell small-1">
+              <i class="step fi-torso usu"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+
+</html>
